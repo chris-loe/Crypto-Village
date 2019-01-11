@@ -129,7 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "crypto/static"),
+    os.path.join(BASE_DIR, "static"),
     #'/Buckboo/blog_app/static/',
 ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressManifestStaticFilesStorage'
